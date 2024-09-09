@@ -1,0 +1,63 @@
+/* Réinitialisation des styles par défaut du navigateur */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles globaux */
+body {
+    background-color: #fff; /* Fond blanc */
+    color: #000; /* Texte noir */
+    font-family: Arial, sans-serif;
+}
+
+/* Styles spécifiques pour les éléments */
+header {
+    background-color: #fff; /* Fond blanc pour l'en-tête */
+    color: #000; /* Texte noir dans l'en-tête */
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000; /* Texte noir pour les liens */
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #fff; /* Fond blanc pour le pied de page */
+    color: #000; /* Texte noir dans le pied de page */
+}
+
+/* Styles pour les liens */
+a {
+    color: #000; /* Lien noir */
+    text-decoration: none; /* Suppression du soulignement par défaut */
+}
+
+a:hover {
+    text-decoration: underline; /* Soulignement au survol */
+}
+
+/* Styles pour les titres */
+h1, h2 {
+    color: #000; /* Titres en noir */
+    background-color: transparent; /* Aucun fond de couleur pour les titres */
+    padding: 10px; /* Espacement autour des titres */
+}
